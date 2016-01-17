@@ -4,7 +4,7 @@ $config = [];
 $config['product']['simrp'] = [
     'host' => '127.0.0.1',
     'user' => 'simrp',
-    'pass' => 'simrpxxx',
+    'password' => 'simrpxxx',
     'port' => 3306,
     'database' => 'simrp',
 ];
@@ -12,14 +12,14 @@ $config['product']['simrp'] = [
 $config['dev']['simrp'] = [
     'host' => '127.0.0.1',
     'user' => 'simrp',
-    'pass' => 'simrpxxx',
+    'password' => 'simrpxxx',
     'port' => 3306,
     'database' => 'simrp',
 ];
 $config['test']['simrp'] = [
     'host' => '127.0.0.1',
     'user' => 'simrp',
-    'pass' => 'simrpxxx',
+    'password' => 'simrpxxx',
     'port' => 3306,
     'database' => 'simrp',
 ];
