@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p ../var/log
+mkdir ../var/pid
+

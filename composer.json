@@ -14,10 +14,11 @@
         "psr-4": {
             "SimrpBinController\\": "bin/controllers",
             "SimrpBinModel\\": "bin/models",
-            "SimrpController\\": "simcd.com/controllers",
-            "SimrpModel\\": "simcd.com/models"
+            "SimrpController\\": "web/controllers",
+            "SimrpModel\\": "web/models"
         }
     },
+    "minimum-stability": "dev",
     "require": {
         "miaokuan/wee" : "dev-master"
     },

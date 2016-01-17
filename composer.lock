@@ -1,0 +1,107 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7955d10fc843c3742719896683af4718",
+    "content-hash": "a24f7b837cc5831db91592bb896eb0a8",
+    "packages": [
+        {
+            "name": "miaokuan/haf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miaokuan/haf.git",
+                "reference": "72bfd3e1cdf075ab732704069edc32065180f7fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/miaokuan/haf/72bfd3e1cdf075ab732704069edc32065180f7fe.zip",
+                "reference": "72bfd3e1cdf075ab732704069edc32065180f7fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Haf\\": "src/Haf"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "miaokuan",
+                    "email": "eyou80@gmail.com",
+                    "homepage": "https://github.com/miaokuan/"
+                }
+            ],
+            "description": "a high available framework for php",
+            "homepage": "https://github.com/miaokuan/haf",
+            "keywords": [
+                "framework",
+                "haf",
+                "php"
+            ],
+            "time": "2016-01-19 12:43:53"
+        },
+        {
+            "name": "miaokuan/wee",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miaokuan/wee.git",
+                "reference": "b11f415c5e8118fc9670a3cdb988a4b7cf3a45c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/miaokuan/wee/b11f415c5e8118fc9670a3cdb988a4b7cf3a45c4.zip",
+                "reference": "b11f415c5e8118fc9670a3cdb988a4b7cf3a45c4",
+                "shasum": ""
+            },
+            "require": {
+                "miaokuan/haf": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wee\\": "src/Wee"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "miaokuan",
+                    "email": "eyou80@gmail.com",
+                    "homepage": "http://github.com/miaokuan/"
+                }
+            ],
+            "description": "a high available framework for php",
+            "homepage": "https://github.com/miaokuan/wee",
+            "keywords": [
+                "framework",
+                "php",
+                "wee"
+            ],
+            "time": "2016-01-19 13:13:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "miaokuan/wee": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
