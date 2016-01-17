@@ -1,5 +1,6 @@
 <?php
 
+$_ENV['platform'] = 'dev'; //dev test product
 require __DIR__ . '/../bootstrap.php';
 
 $namespace = 'SimrpController\\';

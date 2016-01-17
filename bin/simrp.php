@@ -4,6 +4,8 @@
  * @author miaokuan
  */
 
+$_ENV['platform'] = 'dev'; //dev test product
+
 if (PHP_SAPI !== 'cli') {
     die("only run in cli mode.");
 }
