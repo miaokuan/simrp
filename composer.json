@@ -1,0 +1,30 @@
+{
+    "name": "miaokuan/simrp",
+    "description": "a simple report",
+    "keywords": ["report", "application"],
+    "homepage": "https://github.com/miaokuan/simrp",
+    "type": "application",
+    "license": "MIT",
+    "authors": [{
+        "name":"miaokuan",
+        "email": "eyou80@gmail.com",
+        "homepage": "https://github.com/miaokuan/"
+    }],
+    "autoload": {
+        "psr-4": {
+            "SimrpBinController\\": "bin/controllers",
+            "SimrpBinModel\\": "bin/models",
+            "SimrpController\\": "simcd.com/controllers",
+            "SimrpModel\\": "simcd.com/models"
+        }
+    },
+    "require": {
+        "miaokuan/wee" : "dev-master"
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "http://packagist.phpcomposer.com"
+    }, {
+        "packagist": false
+    }]
+}
